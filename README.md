@@ -1,3 +1,80 @@
+Arjit Sharma - Full Stack Application:
+
+Step 1:
+Setting up Mongo DB database using Mongo DB Atlas as it helped hosting the database on AWS and connecting it with Mongo DB compass. We get URI to our database from the compass.
+
+
+Step 2:
+Setting up the backend:
+Spring initializer is used to download all the dependencies:
+1:  Mongo DB dependency
+2:  Web dependency
+3:  Lombok Dependency
+4:  Spring core dependency
+
+Setting up the Springboot application using IntelliJ.
+1:  Repository to extend the database
+2:  Service for the business logic.
+3:  Controller to provide API's.
+
+
+Step 3:
+Setting up the frontend:
+React is used for the frontend:
+The main functionalities used:
+1:  Axios/fetch to call the rest API
+2:  Material UI and it's libraries like core, icon, button to provide styling
+3:  Use of different hooks like UseState and UseEffect hook.
+
+To run the project:
+Step 1: Clone the project repository: 
+git clone https://github.com/Arjitsha/Travelopia.git
+Step 2:  Navigate to the project directory: cd Travelopia
+Step 3:  Set up the backend server: using IntelliJ
+o	Navigate to the backend directory: Backend_Springboot-Java
+o	Configure the database connection and environment variables.
+o	Start the backend server: Click on the start 
+
+Step 4: Run the spring boot application
+Step 5: Open the React Application in Vs Code
+Step 4: Run the React application using "npm start" command in the terminal.
+Step 5: Please make sure to refresh the page after submitting your details to get all the details all together.
+
+  
+Provided links:
+For database URI:
+mongodb+srv://arjit:NJDfRwwYETPygiRH@cluster0.lhwcr4o.mongodb.net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
