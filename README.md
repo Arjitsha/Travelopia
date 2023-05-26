@@ -1,11 +1,14 @@
-Arjit Sharma - Full Stack Application:
+Arjit Sharma – Travel Full Stack Application:
+This is a simple travel booking application that allows users to submit their travel preferences and view the submitted form data. The project consists of a frontend application and a backend server.
+
+Problem Statement:
+The goal of this project is to create a two-page web application where users can fill out a travel booking form on the first page and view the submitted form data on the second page. The backend server should provide two JSON API endpoints, one for storing form submissions and another for retrieving existing form submissions.
 
 Step 1:
 Setting up Mongo DB database using Mongo DB Atlas as it helped hosting the database on AWS and connecting it with Mongo DB compass. We get URI to our database from the compass.
 
-
 Step 2:
-Setting up the backend:
+Setting up the backend: Java
 Spring initializer is used to download all the dependencies:
 1:  Mongo DB dependency
 2:  Web dependency
@@ -34,16 +37,16 @@ Step 3:  Set up the backend server: using IntelliJ
 o	Navigate to the backend directory: Backend_Springboot-Java
 o	Configure the database connection and environment variables.
 o	Start the backend server: Click on the start 
-
 Step 4: Run the spring boot application
 Step 5: Open the React Application in Vs Code
 Step 4: Run the React application using "npm start" command in the terminal.
-Step 5: Please make sure to refresh the page after submitting your details to get all the details all together.
+Step 5: Please make sure to refresh the page after submitting your details to get            all the details all together.
 
   
 Provided links:
 For database URI:
 mongodb+srv://arjit:NJDfRwwYETPygiRH@cluster0.lhwcr4o.mongodb.net
+
 
 
 
