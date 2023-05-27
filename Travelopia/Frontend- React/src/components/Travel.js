@@ -18,13 +18,12 @@ export default function Travel() {
     const[email,setEmail]=useState('')
     const[dest,setDest]=useState('')
     const[num,setNum]=useState('')
-    const[curr,setCurr]=useState('')
     const[travel,setTravel]=useState([])
      const classes = useStyles();
 
   const handleClick=(e)=>{
     e.preventDefault()
-    const travel={name,email,dest,num,curr}
+    const travel={name,email,dest,num}
     console.log(travel)
     fetch("http://localhost:8080/api/v1/travels/post",{
       method:"POST",
@@ -69,10 +68,7 @@ useEffect(()=>{
       value={num}
       onChange={(e)=>setNum(e.target.value)}
       />
-       <TextField id="outlined-basic" label="Sum" variant="outlined" type="number" required fullWidth
-      value={curr}
-      onChange={(e)=>setCurr(e.target.value)}
-      />
+      
       <Button variant="contained" color="secondary" onClick={handleClick}>
   Submit
 </Button>
@@ -90,7 +86,7 @@ useEffect(()=>{
          Email: {travel.email}<br></br>
          Destination: {travel.dest}<br/>
          Number of travellers: {travel.num}<br></br>
-         Amount: {travel.curr}<br/>
+       
          
 
         </Paper>
