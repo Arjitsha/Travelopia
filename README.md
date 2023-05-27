@@ -40,7 +40,7 @@ o	Start the backend server: Click on the start
 Step 4: Run the spring boot application
 Step 5: Open the React Application in Vs Code
 Step 4: Run the React application using "npm start" command in the terminal.
-Step 5: Please make sure to refresh the page after submitting your details to get            all the details all together.
+Step 5: Please make sure to refresh the page after submitting your details to get all the details all together.
 
   
 Provided links:
